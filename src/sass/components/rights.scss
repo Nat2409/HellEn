@@ -1,0 +1,30 @@
+.rights {
+  height: 72px;
+  background-color: $text-color-dark;
+}
+.rights__text {
+  font-weight: 500;
+  line-height: 72px;
+  color: $text-color-footer;
+
+  @media (max-width: 767px) {
+    text-align: center;
+  }
+
+  @media (min-width: 768px) {
+    text-align: left;
+    font-size: 11px;
+  }
+  @media (min-width: 768px) and (max-width: 1279px) {
+    padding-left: 40px;
+  }
+  @media (min-width: 1280px) {
+    font-size: 15px;
+  }
+  @media (min-width: 1280px) and (max-width: 1679px) {
+    padding-left: 35px;
+  }
+  @media (min-width: 1680px) {
+    padding-left: 180px;
+  }
+}
